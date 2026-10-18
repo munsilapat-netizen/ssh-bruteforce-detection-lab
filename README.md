@@ -44,7 +44,7 @@ Fail2ban	Automated intrusion prevention (layer 2 defense)
  Verified connectivity (ping) between host and VM, then confirmed remote access with ssh mun@192.168.56.101.
 
 3. Attack simulation (Red Team)
-<img width="1094" height="314" alt="IMG_9095" src="https://github.com/user-attachments/assets/f0152d9c-bdc2-4e92-a1b7-e2c0f6e43cf6" />
+<img width="2166" height="596" alt="hydra-attack" src="https://github.com/user-attachments/assets/64b9a39c-ad19-4507-a731-ed882b604817" />
 
  Ran a brute-force attack against the VM's SSH service using Hydra:
  bash
@@ -112,7 +112,6 @@ Reading and filtering authentication logs like a SOC analyst (grep, wc, awk).
 The difference between a firewall (controls access) and Fail2ban (reacts to behavior) — and why layered defense (defense in depth) matters.
 Why config overrides belong in jail.local, not jail.conf (survives package updates).
 Services must be restarted to load new configuration.
-<img width="1094" height="314" alt="IMG_9095" src="https://github.com/user-attachments/assets/95c7223f-157b-4d09-ae34-b5580fa06f38" />
 
 
 # Disclaimer
